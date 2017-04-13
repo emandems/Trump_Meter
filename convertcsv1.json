@@ -1,0 +1,26 @@
+[
+ {
+   "FIELD1": "Date",
+   "FIELD2": "Company",
+   "FIELD3": "Return",
+   "FIELD4": "Tweet"
+ },
+ {
+   "FIELD1": "9/10/16",
+   "FIELD2": "New York Times Co Class A",
+   "FIELD3": "-0.0119",
+   "FIELD4": "The seriously failing @nytimes, despite so much winning and poll nubers that will soon put me in first place, only writes dishonest hits! "
+ },
+ {
+   "FIELD1": "9/15/16",
+   "FIELD2": "Comcast Corporation",
+   "FIELD3": "0.0164",
+   "FIELD4": "Will be joining @jimmyfallon on @FallonTonight at 11:35pmE tonight. Enjoy! "
+ },
+ {
+   "FIELD1": "9/29/16",
+   "FIELD2": "Time Warner Inc. ",
+   "FIELD3": "0.0092",
+   "FIELD4": "Wow, did you see how badly @CNN (Clinton News Network) is doing in the ratings. With people like @donlemon, who could expect any more? "
+ }
+]
