@@ -1,1 +1,143 @@
+<html>
 
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<head></head>
+
+<body> 
+	
+		<button id="SO">Start Over</button>
+
+		<p class="AR">Market Return</p>
+
+	<div class="input">
+		<input type="text" id="textInput" value="">
+		<p id="percent">%</p>
+	</div>	
+
+		<input type="range"  id="meter" value=" " min="-3.0" max="3.0" step="0.1" >
+
+
+<!--onchange="updateTextInput(this.value);" -->
+	
+
+	<div class="container"><p id="top">3.0%</p><p id="middle">0</p><p id="bottom">-3.0%</p></div>
+
+
+<!--<div id="scale"></div>-->
+
+
+
+	<div class="tweet">
+		<div class="title">
+			<p style="color:black; display: inline-block; font-size: 14px;font-weight: bold; font-family: sans-serif; ">    Donald J. Trump
+			</p>  
+				<img src="http://ecommercemix.com/multivendormarketplacescript/images/icons/twt-verifiy.png" style="height: 12px; width: 12px;margin-right: 
+					2px;">
+				<p style="color:grey; font-size: 12px; display: inline-block;font-family: sans-serif; ">@realDonaldTrump     	
+				</p>
+					<div id="date" style="color: blue; font-size: 16px; display: inline-block;font-family: sans-serif; ">
+					</div>
+		</div>	
+<br>
+<br>
+		<div id="picture">
+			<img src="https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2_400x400.jpg">	
+		</div>
+
+		<div id="content">
+		</div>
+		
+		
+	</div>
+
+	
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+<!--onchange="showValue(this.value); changeScrollBar(this.value);"-->
+
+
+	<div class="emotions">
+		<button class="happy">
+		<img src="https://cdn.shopify.com/s/files/1/1061/1924/products/Grinning_Emoji_with_Smiling_Eyes_large.png?v=1480481053"></button>
+		<button class="neutral"><img src="https://cdn.shopify.com/s/files/1/1061/1924/products/Neutral_Face_Emoji_large.png?v=1480481054"></button>
+		<button class="mad"><img src="https://cdn.shopify.com/s/files/1/1061/1924/products/Unamused_Face_Emoji_761d8bf8-c78c-45b1-80b1-a86a80d2452d_large.png?v=1480481058"></button>
+		<button class="angry"><img src="https://cdn.shopify.com/s/files/1/1061/1924/products/Very_Angry_Emoji_7f7bb8df-d9dc-4cda-b79f-5453e764d4ea_large.png?v=1480481058"></button>
+		<p id="pe">Choose an emotion.</p>
+	</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+	<div class= "companies">
+		
+			<button class="button2" onclick="CNNclick(this)">CNN</button>
+			<button class="button3" onclick="NYTclick(this)">NY Times</button>
+			<button class="button4" onclick="FOXclick(this)">NBC</button>
+			<button class="button5" onclick="FORDclick(this)">GM</button>
+			<button class="button6" onclick="BOEclick(this)">Boeing</button>
+		
+			<p id="p1">Choose a company.</p>
+	</div>
+
+	<br>
+<br>
+<br>
+<br>
+<br>
+	<br>
+<br>
+<br>
+	<br>
+<br>
+
+
+
+<div class="article">
+	
+		<p style="font-size: 20px; color: #006666; width: 600px">All companies Trump Tweeted about from the end of August-beginning of April and how their Abnormal Market Return was affected on the day of the Tweet.</p>
+<br>
+		<p style="font-size: 14px; color: #006666">(Abnormal Return= Price of Stock's Return on Day of Tweet minus Stock's Beta Number (measure of volatility) multipled by Price of Return of the S&P500 on Day of Tweet.)
+		<br>
+		<br>
+		<br>
+		<br>
+		<p>RStudio Version, which gave me the idea for how to arrange data points in Tableau. </p>
+		<br>
+			<img id="r" src="https://i1.wp.com/amusinginquisitor.files.wordpress.com/2017/04/rplot.png?ssl=1&w=450" style="border: 1px solid grey; ">
+	
+<br>
+<br>
+<br>
+<br>
+<br>
+		<p>Interactive Tableau Version</p>
+		<br>
+			<div class='tableauPlaceholder' id='viz1491996749842' style='position: relative'><noscript><a href='#'><img alt='Trump Tweet effect on Companies&#39; Abnormal Return  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;TrumpEffect&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='TrumpEffect&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;TrumpEffect&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1491996749842');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+		
+	
+</div>
+
+
+
+	<script src="jquery3.js"></script>
+	<script id="myscript" src="script.js"></script>
+	<script src="data.js"></script>
+
+</body>
+<html>
